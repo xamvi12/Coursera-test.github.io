@@ -1,0 +1,84 @@
+h1 {
+    font-family: comic sans ms; 
+	text-align:  center;
+}
+p{
+	font-family: heveltica;
+	clear: right;
+}
+h3{
+	font-family: comic sans ms;
+	text-align: center;
+}
+.container{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	position: relative;
+}
+ 
+ #box1{
+ 	background-color: grey;
+ 	border: 2px solid black;
+ 	margin: 20px;
+ 	width: 400px;
+ 	height: 200px;
+ 	box-sizing: border-box;
+ }
+ 
+ #box2{
+ 	background-color: grey;
+ 	border: 2px solid black;
+ 	margin: 20px;
+ 	width: 400px;
+ 	height: 200px;
+ 	box-sizing: border-box;
+ } 
+ 
+  #box3{
+ 	background-color: grey;
+ 	border: 2px solid black;
+ 	margin: 20px;
+ 	width: 400px;
+ 	height: 200px; 
+ 	box-sizing: border-box;
+ }
+ #box4{
+ 	width: 90px;
+ 	height: 23px;
+ 	background-color: red;
+ 	border: 1px solid black;
+    float: right;
+    
+ }
+ #box5{
+    width: 90px;
+ 	height: 23px;
+ 	background-color: pink;
+ 	border: 1px solid black;
+ 	float: right;
+ }
+ #box6{
+ 	width: 90px;
+ 	height: 23px;
+ 	background-color: beige;
+ 	border: 1px solid black;
+ 	float: right;
+ }
+ 
+@media (max-width: 1200px) and (min-width: 992px ) {
+	.container{
+		flex-direction: row;
+	}	 
+}
+@media (min-width: 767px) and (max-width: 991px) {
+	#box3{ 
+         float: left;  
+		
+	}
+}
+@media (max-width: 766px) {
+	.container{
+		flex-direction: column;
+	}
+}
