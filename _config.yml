@@ -1,1 +1,5 @@
-
+title: Coursera test
+#logo
+description: This is a coursera repository
+#show_downloads
+theme: jekyll-theme-minimal
